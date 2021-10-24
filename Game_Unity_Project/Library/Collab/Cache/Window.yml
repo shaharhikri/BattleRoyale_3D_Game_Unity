@@ -1,0 +1,776 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Environment.meta
+    - Assets/Environment/BOXOPHOBIC.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Boxophobic.SkyboxCubemapExtended.Editor.asmdef
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Boxophobic.SkyboxCubemapExtended.Editor.asmdef.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedHub.cs
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedHub.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedShaderGUI.cs
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedShaderGUI.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedWindows.cs
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedWindows.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Version.asset
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Version.asset.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Functions.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Functions/Compute
+      Rotation Y.asset
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Functions/Compute
+      Rotation Y.asset.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap
+      Blend.shader
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap
+      Blend.shader.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap
+      Extended.shader
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap
+      Extended.shader.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Blend.unity
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Blend.unity.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Day.unity
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Day.unity.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Night.unity
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Demo Night.unity.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly
+      - FirTree.mat
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly
+      - FirTree.mat.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly
+      - FirTreeVariation.mat
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly
+      - FirTreeVariation.mat.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly
+      - Grass.mat
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly
+      - Grass.mat.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly
+      - Rock.mat
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly
+      - Rock.mat.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly
+      - Terrain.mat
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly
+      - Terrain.mat.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly
+      - TreeTrunk.mat
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly
+      - TreeTrunk.mat.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly
+      - Wood.mat
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly
+      - Wood.mat.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox
+      Cubemap Extended Blend.mat
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox
+      Cubemap Extended Blend.mat.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox
+      Cubemap Extended Day.mat
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox
+      Cubemap Extended Day.mat.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox
+      Cubemap Extended Night.mat
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox
+      Cubemap Extended Night.mat.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      Fence A.FBX
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      Fence A.FBX.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      Fence B.FBX
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      Fence B.FBX.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      FirTree A.FBX
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      FirTree A.FBX.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      FirTree B.FBX
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      FirTree B.FBX.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      Grass A.FBX
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      Grass A.FBX.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      Grass B.FBX
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      Grass B.FBX.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      Rock A.FBX
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      Rock A.FBX.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      Rock B.FBX
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      Rock B.FBX.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      Terrain.FBX
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Meshes/LowPoly -
+      Terrain.FBX.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly
+      - Fence A.prefab
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly
+      - Fence A.prefab.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly
+      - Fence B.prefab
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly
+      - Fence B.prefab.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly
+      - FirTree A.prefab
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly
+      - FirTree A.prefab.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly
+      - FirTree B.prefab
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly
+      - FirTree B.prefab.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly
+      - Grass A.prefab
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly
+      - Grass A.prefab.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly
+      - Grass B.prefab
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly
+      - Grass B.prefab.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly
+      - Rock A.prefab
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly
+      - Rock A.prefab.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly
+      - Rock B.prefab
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Prefabs/LowPoly
+      - Rock B.prefab.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Settings.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Settings/Demo.asset
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Settings/Demo.asset.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse
+      Skies - Blue Sky.png
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse
+      Skies - Blue Sky.png.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse
+      Skies - Night Sky.exr
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse
+      Skies - Night Sky.exr.meta
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Skybox Cubemap Extended.pdf
+    - Assets/Environment/BOXOPHOBIC/Skybox Cubemap Extended/Skybox Cubemap Extended.pdf.meta
+    - Assets/Environment/BOXOPHOBIC/User.meta
+    - Assets/Environment/BOXOPHOBIC/User/User.pdf
+    - Assets/Environment/BOXOPHOBIC/User/User.pdf.meta
+    - Assets/Environment/BOXOPHOBIC/Utils.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/Boxophobic.Utils.Editor.asmdef
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/Boxophobic.Utils.Editor.asmdef.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/Constants.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/Constants/Constants.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/Constants/Constants.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/SettingsUtils.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/SettingsUtils/LoadSettingsData.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/SettingsUtils/LoadSettingsData.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/SettingsUtils/SaveSettingsData.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/SettingsUtils/SaveSettingsData.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledGUI.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorBanner.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorBanner.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorCategory.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorCategory.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowBanner.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowBanner.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowCategory.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowCategory.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledBannerDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledBannerDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledButtonDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledButtonDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledCategoryDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledCategoryDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledIEnumDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledIEnumDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledIMaskDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledIMaskDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledIndentDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledIndentDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledInteractiveDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledInteractiveDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMessageDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMessageDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledPopupArrayDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledPopupArrayDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledPopupLayersDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledPopupLayersDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledRangeOptionsDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledRangeOptionsDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledSpaceDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledSpaceDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTextDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTextDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTexturePreviewDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTexturePreviewDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledBannerDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledBannerDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledButtonDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledButtonDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledCategoryDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledCategoryDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledDiffusionMaterialDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledDiffusionMaterialDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledEnumDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledEnumDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledIndentDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledIndentDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledInteractiveDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledInteractiveDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMaskDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMaskDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMessageDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMessageDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledOptionsSliderDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledOptionsSliderDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledRemapSliderDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledRemapSliderDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledSpaceDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledSpaceDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureSingleLineDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureSingleLineDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledToggleDrawer.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledToggleDrawer.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMono.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMono/StyledMonoBehaviourEditor.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMono/StyledMonoBehaviourEditor.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMono/StyledScriptableObjectEditor.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/StyledMono/StyledScriptableObjectEditor.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/Version.asset
+    - Assets/Environment/BOXOPHOBIC/Utils/Editor/Version.asset.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerBegin.psd
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerBegin.psd.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerEnd.psd
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerEnd.psd.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerMiddle.psd
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerMiddle.psd.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryBegin.psd
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryBegin.psd.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryEnd.psd
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryEnd.psd.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryMiddle.psd
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryMiddle.psd.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - IconEdit.psd
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - IconEdit.psd.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - IconHelp.psd
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - IconHelp.psd.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - Logo.png
+    - Assets/Environment/BOXOPHOBIC/Utils/Resources/Boxophobic - Logo.png.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/Boxophobic.Utils.Scripts.asmdef
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/Boxophobic.Utils.Scripts.asmdef.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/SettingsUtils.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/SettingsUtils/SettingsData.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/SettingsUtils/SettingsData.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledInteractive.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledInteractive.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledPopupArray.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledPopupArray.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledPopupLayers.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledPopupLayers.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledMono.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledMonoBehaviour.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledMonoBehaviour.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledScriptableObject.cs
+    - Assets/Environment/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledScriptableObject.cs.meta
+    - Assets/Environment/BOXOPHOBIC/Utils/Utils.pdf
+    - Assets/Environment/BOXOPHOBIC/Utils/Utils.pdf.meta
+    - Assets/Environment/Ground.meta
+    - Assets/Environment/Ground/GreenGroundMaterial.mat
+    - Assets/Environment/Ground/GreenGroundMaterial.mat.meta
+    - Assets/Environment/Ground/Ground100x100.prefab
+    - Assets/Environment/Ground/Ground100x100.prefab.meta
+    - Assets/Environment/Ground/GroundMaterial.mat
+    - Assets/Environment/Ground/GroundMaterial.mat.meta
+    - Assets/Environment/Ground/GroundNormalMap.png
+    - Assets/Environment/Ground/GroundNormalMap.png.meta
+    - Assets/Environment/Ground/GroundPhysic.physicMaterial
+    - Assets/Environment/Ground/GroundPhysic.physicMaterial.meta
+    - Assets/Environment/Ground/GroundTexture.png
+    - Assets/Environment/Ground/GroundTexture.png.meta
+    - Assets/Environment/Ground/Terrain_02.prefab
+    - Assets/Environment/Ground/Terrain_02.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Animation.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Animation/CameraAnim.anim
+    - Assets/Environment/LowpolyVegetationPackFree/Animation/CameraAnim.anim.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Animation/Main Camera.controller
+    - Assets/Environment/LowpolyVegetationPackFree/Animation/Main Camera.controller.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Materials.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Materials/PalettesVegetationPackFree.mat
+    - Assets/Environment/LowpolyVegetationPackFree/Materials/PalettesVegetationPackFree.mat.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Materials/PalettesVegetationsPackBonusFree.mat
+    - Assets/Environment/LowpolyVegetationPackFree/Materials/PalettesVegetationsPackBonusFree.mat.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Apple.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Apple.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Banana.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Banana.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Branch_5.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Branch_5.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Cactus_4.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Cactus_4.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Carrot.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Carrot.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Cloud_3.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Cloud_3.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Corn.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Corn.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/DeadTree_08.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/DeadTree_08.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/FirTree_02.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/FirTree_02.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Grass3D_02.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Grass3D_02.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Grass3D_08.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Grass3D_08.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Grass3D_10.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Grass3D_10.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/MushroomType1_3.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/MushroomType1_3.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/PalmType1_4.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/PalmType1_4.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Shrub_03.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Shrub_03.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Shrub_18.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Shrub_18.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Stone_3.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Stone_3.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Stump_03.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Stump_03.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Terrain_02.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Terrain_02.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/TreeType1_07.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/TreeType1_07.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/TreeType2_06.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/TreeType2_06.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/TreeType5_3.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/TreeType5_3.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Vine_1.fbx
+    - Assets/Environment/LowpolyVegetationPackFree/Modeles/Vine_1.fbx.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Apple.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Apple.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Banana.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Banana.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Branch_5.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Branch_5.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Cactus_4.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Cactus_4.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Carrot.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Carrot.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Cloud_3.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Cloud_3.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Corn.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Corn.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/DeadTree_08.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/DeadTree_08.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/FirTree_02.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/FirTree_02.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Grass3D_02.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Grass3D_02.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Grass3D_08.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Grass3D_08.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Grass3D_10.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Grass3D_10.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/LowGrass3D_10.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/LowGrass3D_10.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/MushroomType1_3.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/MushroomType1_3.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/PalmType1_4.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/PalmType1_4.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Shrub_03.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Shrub_03.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Shrub_18.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Shrub_18.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Stone_3.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Stone_3.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Stump_03.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Stump_03.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/TreeType1_07.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/TreeType1_07.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/TreeType2_06.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/TreeType2_06.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/TreeType5_3.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/TreeType5_3.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Vine_1.prefab
+    - Assets/Environment/LowpolyVegetationPackFree/Prefabs/Vine_1.prefab.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Readme.txt
+    - Assets/Environment/LowpolyVegetationPackFree/Readme.txt.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Scenes.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Scenes/Demo.unity
+    - Assets/Environment/LowpolyVegetationPackFree/Scenes/Demo.unity.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Scenes/DemoSettings.lighting
+    - Assets/Environment/LowpolyVegetationPackFree/Scenes/DemoSettings.lighting.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Scenes/Preview.unity
+    - Assets/Environment/LowpolyVegetationPackFree/Scenes/Preview.unity.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Scenes/PreviewSettings.lighting
+    - Assets/Environment/LowpolyVegetationPackFree/Scenes/PreviewSettings.lighting.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Textures.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Textures/PalettesVegetationPackFree.psd
+    - Assets/Environment/LowpolyVegetationPackFree/Textures/PalettesVegetationPackFree.psd.meta
+    - Assets/Environment/LowpolyVegetationPackFree/Textures/PalettesVegetationsPackBonusFree.psd
+    - Assets/Environment/LowpolyVegetationPackFree/Textures/PalettesVegetationsPackBonusFree.psd.meta
+    - Assets/GameManagerScript.cs
+    - Assets/GameManagerScript.cs.meta
+    - Assets/GameObjectBrush.meta
+    - Assets/GameObjectBrush/Brushes.meta
+    - Assets/GameObjectBrush/Brushes/Cube BrushCollection.asset
+    - Assets/GameObjectBrush/Brushes/Cube BrushCollection.asset.meta
+    - Assets/GameObjectBrush/Brushes/New Brush Collection.asset
+    - Assets/GameObjectBrush/Brushes/New Brush Collection.asset.meta
+    - Assets/GameObjectBrush/Brushes/Sphere BrushCollection.asset
+    - Assets/GameObjectBrush/Brushes/Sphere BrushCollection.asset.meta
+    - Assets/GameObjectBrush/Demo.unity
+    - Assets/GameObjectBrush/Demo.unity.meta
+    - Assets/GameObjectBrush/GameObject Brush v3.3.pdf
+    - Assets/GameObjectBrush/GameObject Brush v3.3.pdf.meta
+    - Assets/GameObjectBrush/Materials.meta
+    - Assets/GameObjectBrush/Materials/Blue.mat
+    - Assets/GameObjectBrush/Materials/Blue.mat.meta
+    - Assets/GameObjectBrush/Materials/Default.mat
+    - Assets/GameObjectBrush/Materials/Default.mat.meta
+    - Assets/GameObjectBrush/Materials/Green.mat
+    - Assets/GameObjectBrush/Materials/Green.mat.meta
+    - Assets/GameObjectBrush/Materials/Red.mat
+    - Assets/GameObjectBrush/Materials/Red.mat.meta
+    - Assets/GameObjectBrush/Materials/Yellow.mat
+    - Assets/GameObjectBrush/Materials/Yellow.mat.meta
+    - Assets/GameObjectBrush/Prefabs.meta
+    - Assets/GameObjectBrush/Prefabs/Cube Blue.prefab
+    - Assets/GameObjectBrush/Prefabs/Cube Blue.prefab.meta
+    - Assets/GameObjectBrush/Prefabs/Cube Green.prefab
+    - Assets/GameObjectBrush/Prefabs/Cube Green.prefab.meta
+    - Assets/GameObjectBrush/Prefabs/Cube Red.prefab
+    - Assets/GameObjectBrush/Prefabs/Cube Red.prefab.meta
+    - Assets/GameObjectBrush/Prefabs/Cube Yellow.prefab
+    - Assets/GameObjectBrush/Prefabs/Cube Yellow.prefab.meta
+    - Assets/GameObjectBrush/Prefabs/Multi Object Prefab.prefab
+    - Assets/GameObjectBrush/Prefabs/Multi Object Prefab.prefab.meta
+    - Assets/GameObjectBrush/Prefabs/Sphere Blue.prefab
+    - Assets/GameObjectBrush/Prefabs/Sphere Blue.prefab.meta
+    - Assets/GameObjectBrush/Prefabs/Sphere Green.prefab
+    - Assets/GameObjectBrush/Prefabs/Sphere Green.prefab.meta
+    - Assets/GameObjectBrush/Prefabs/Sphere Red.prefab
+    - Assets/GameObjectBrush/Prefabs/Sphere Red.prefab.meta
+    - Assets/GameObjectBrush/Prefabs/Sphere Yellow.prefab
+    - Assets/GameObjectBrush/Prefabs/Sphere Yellow.prefab.meta
+    - Assets/GameObjectBrush/Scripts.meta
+    - Assets/GameObjectBrush/Scripts/Editor.meta
+    - Assets/GameObjectBrush/Scripts/Editor/AddObjectPopup.cs
+    - Assets/GameObjectBrush/Scripts/Editor/AddObjectPopup.cs.meta
+    - Assets/GameObjectBrush/Scripts/Editor/BrushCollection.cs
+    - Assets/GameObjectBrush/Scripts/Editor/BrushCollection.cs.meta
+    - Assets/GameObjectBrush/Scripts/Editor/BrushObject.cs
+    - Assets/GameObjectBrush/Scripts/Editor/BrushObject.cs.meta
+    - Assets/GameObjectBrush/Scripts/Editor/GameObjectBrushEditor.cs
+    - Assets/GameObjectBrush/Scripts/Editor/GameObjectBrushEditor.cs.meta
+    - Assets/GameObjectBrush/Scripts/Editor/StringPopupDialog.cs
+    - Assets/GameObjectBrush/Scripts/Editor/StringPopupDialog.cs.meta
+    - Assets/HandGun.meta
+    - Assets/HandGun/BulletScript.cs
+    - Assets/HandGun/BulletScript.cs.meta
+    - Assets/HandGun/Bullet_material.mat
+    - Assets/HandGun/Bullet_material.mat.meta
+    - Assets/HandGun/LightMaterial.mat
+    - Assets/HandGun/LightMaterial.mat.meta
+    - Assets/HandGun/PickUpGun.controller
+    - Assets/HandGun/PickUpGun.controller.meta
+    - Assets/HandGun/PickUpGun.prefab
+    - Assets/HandGun/PickUpGun.prefab.meta
+    - Assets/HandGun/PickUpGun_animation.anim
+    - Assets/HandGun/PickUpGun_animation.anim.meta
+    - Assets/HandGun/SciFiHandGunAsset.meta
+    - Assets/HandGun/SciFiHandGunAsset/Gun_Demo.unity
+    - Assets/HandGun/SciFiHandGunAsset/Gun_Demo.unity.meta
+    - Assets/HandGun/SciFiHandGunAsset/Gun_DemoSettings.lighting
+    - Assets/HandGun/SciFiHandGunAsset/Gun_DemoSettings.lighting.meta
+    - Assets/HandGun/SciFiHandGunAsset/Materials.meta
+    - Assets/HandGun/SciFiHandGunAsset/Materials/SciFiHandGun.mat
+    - Assets/HandGun/SciFiHandGunAsset/Materials/SciFiHandGun.mat.meta
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun.fbm.meta
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun.fbm/HandGun_disfuse.png
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun.fbm/HandGun_disfuse.png.meta
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun.fbm/HandGun_normals.png
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun.fbm/HandGun_normals.png.meta
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun.fbm/HandGun_occlusion.png
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun.fbm/HandGun_occlusion.png.meta
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun.fbm/HandGun_specular.png
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun.fbm/HandGun_specular.png.meta
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun.fbx
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun.fbx.meta
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun.meta
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun.prefab
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun.prefab.meta
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun/HandGun_disfuse.png
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun/HandGun_disfuse.png.meta
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun/HandGun_emission.png
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun/HandGun_emission.png.meta
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun/HandGun_normals.png
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun/HandGun_normals.png.meta
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun/HandGun_occlusion.png
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun/HandGun_occlusion.png.meta
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun/HandGun_specular.png
+    - Assets/HandGun/SciFiHandGunAsset/SciFiHandGun/HandGun_specular.png.meta
+    - Assets/HandGun/SciFiHandGunAsset/Scripts.meta
+    - Assets/HandGun/SciFiHandGunAsset/Scripts/OrbitAroundTarget.cs
+    - Assets/HandGun/SciFiHandGunAsset/Scripts/OrbitAroundTarget.cs.meta
+    - Assets/HandGun/SimpleGun.prefab
+    - Assets/HandGun/SimpleGun.prefab.meta
+    - Assets/HandGun/laserGunShot.wav
+    - Assets/HandGun/laserGunShot.wav.meta
+    - Assets/NPC.meta
+    - Assets/NPC/Beta_Joints_MAT.mat
+    - Assets/NPC/Beta_Joints_MAT.mat.meta
+    - Assets/NPC/BlackMaterial.mat
+    - Assets/NPC/BlackMaterial.mat.meta
+    - Assets/NPC/BlueMaterai.mat
+    - Assets/NPC/BlueMaterai.mat.meta
+    - Assets/NPC/BlueSoldierAsset 1.meta
+    - Assets/NPC/BlueSoldierAsset 1/Soldier_Body_diffuse 1.png
+    - Assets/NPC/BlueSoldierAsset 1/Soldier_Body_diffuse 1.png.meta
+    - Assets/NPC/BlueSoldierAsset 1/Soldier_Body_normal.png
+    - Assets/NPC/BlueSoldierAsset 1/Soldier_Body_normal.png.meta
+    - Assets/NPC/BlueSoldierAsset 1/Soldier_Body_specular.png
+    - Assets/NPC/BlueSoldierAsset 1/Soldier_Body_specular.png.meta
+    - Assets/NPC/BlueSoldierAsset 1/Soldier_body1.mat
+    - Assets/NPC/BlueSoldierAsset 1/Soldier_body1.mat.meta
+    - Assets/NPC/BlueSoldierAsset 1/Soldier_head6.mat
+    - Assets/NPC/BlueSoldierAsset 1/Soldier_head6.mat.meta
+    - Assets/NPC/BlueSoldierAsset 1/Soldier_head_diffuse.png
+    - Assets/NPC/BlueSoldierAsset 1/Soldier_head_diffuse.png.meta
+    - Assets/NPC/BlueSoldierAsset 1/Soldier_head_normal.png
+    - Assets/NPC/BlueSoldierAsset 1/Soldier_head_normal.png.meta
+    - Assets/NPC/BlueSoldierAsset 1/Soldier_head_specular.png
+    - Assets/NPC/BlueSoldierAsset 1/Soldier_head_specular.png.meta
+    - Assets/NPC/BlueSoldierAsset 1/swat@Idle.fbx
+    - Assets/NPC/BlueSoldierAsset 1/swat@Idle.fbx.meta
+    - Assets/NPC/HealthBar.meta
+    - Assets/NPC/HealthBar/BlueMaterail.mat
+    - Assets/NPC/HealthBar/BlueMaterail.mat.meta
+    - Assets/NPC/HealthBar/HealthBar.prefab
+    - Assets/NPC/HealthBar/HealthBar.prefab.meta
+    - Assets/NPC/HealthBar/HealthScript.cs
+    - Assets/NPC/HealthBar/HealthScript.cs.meta
+    - Assets/NPC/HealthBar/RedMaterail.mat
+    - Assets/NPC/HealthBar/RedMaterail.mat.meta
+    - Assets/NPC/NPC_Animations.meta
+    - Assets/NPC/NPC_Animations/Death.anim
+    - Assets/NPC/NPC_Animations/Death.anim.meta
+    - Assets/NPC/NPC_Animations/Demage.anim
+    - Assets/NPC/NPC_Animations/Demage.anim.meta
+    - Assets/NPC/NPC_Animations/Drunk Run Forward.anim
+    - Assets/NPC/NPC_Animations/Drunk Run Forward.anim.meta
+    - Assets/NPC/NPC_Animations/NPC_IdleAnimation.anim
+    - Assets/NPC/NPC_Animations/NPC_IdleAnimation.anim.meta
+    - Assets/NPC/NPC_Animations/Run Look Back.anim
+    - Assets/NPC/NPC_Animations/Run Look Back.anim.meta
+    - Assets/NPC/NPC_Animations/Running.anim
+    - Assets/NPC/NPC_Animations/Running.anim.meta
+    - Assets/NPC/NPC_Animations/Shooting.anim
+    - Assets/NPC/NPC_Animations/Shooting.anim.meta
+    - Assets/NPC/NPC_Animations/Walking.anim
+    - Assets/NPC/NPC_Animations/Walking.anim.meta
+    - Assets/NPC/NPC_Controller.cs
+    - Assets/NPC/NPC_Controller.cs.meta
+    - Assets/NPC/NPC_xbot_Animator.controller
+    - Assets/NPC/NPC_xbot_Animator.controller.meta
+    - Assets/NPC/PinkMaterai 1.mat
+    - Assets/NPC/PinkMaterai 1.mat.meta
+    - Assets/NPC/PinkMaterai.mat
+    - Assets/NPC/PinkMaterai.mat.meta
+    - Assets/NPC/SoldierAsset.meta
+    - Assets/NPC/SoldierAsset/Soldier_Body_diffuse.png
+    - Assets/NPC/SoldierAsset/Soldier_Body_diffuse.png.meta
+    - Assets/NPC/SoldierAsset/Soldier_Body_normal.png
+    - Assets/NPC/SoldierAsset/Soldier_Body_normal.png.meta
+    - Assets/NPC/SoldierAsset/Soldier_Body_specular.png
+    - Assets/NPC/SoldierAsset/Soldier_Body_specular.png.meta
+    - Assets/NPC/SoldierAsset/Soldier_body1.mat
+    - Assets/NPC/SoldierAsset/Soldier_body1.mat.meta
+    - Assets/NPC/SoldierAsset/Soldier_head6.mat
+    - Assets/NPC/SoldierAsset/Soldier_head6.mat.meta
+    - Assets/NPC/SoldierAsset/Soldier_head_diffuse.png
+    - Assets/NPC/SoldierAsset/Soldier_head_diffuse.png.meta
+    - Assets/NPC/SoldierAsset/Soldier_head_normal.png
+    - Assets/NPC/SoldierAsset/Soldier_head_normal.png.meta
+    - Assets/NPC/SoldierAsset/Soldier_head_specular.png
+    - Assets/NPC/SoldierAsset/Soldier_head_specular.png.meta
+    - Assets/NPC/SoldierAsset/swat@Idle.fbx
+    - Assets/NPC/SoldierAsset/swat@Idle.fbx.meta
+    - Assets/NPC/asdf1_Beta_HighLimbsGeoSG2.mat
+    - Assets/NPC/asdf1_Beta_HighLimbsGeoSG2.mat.meta
+    - Assets/NPC/xbot@Idle.fbx
+    - Assets/NPC/xbot@Idle.fbx.meta
+    - Assets/Player.meta
+    - Assets/Player/Player.controller
+    - Assets/Player/Player.controller.meta
+    - Assets/Player/PlayerController.cs
+    - Assets/Player/PlayerController.cs.meta
+    - Assets/Player/PlayerPickUpGun.cs
+    - Assets/Player/PlayerPickUpGun.cs.meta
+    - Assets/Player/ShootingAnimation.anim
+    - Assets/Player/ShootingAnimation.anim.meta
+    - Assets/Player/footstep.wav
+    - Assets/Player/footstep.wav.meta
+    - Assets/RandomGuns.cs
+    - Assets/RandomGuns.cs.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/EntryScene.unity
+    - Assets/Scenes/EntryScene.unity.meta
+    - Assets/Scenes/SampleScene.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Scenes/SampleScene/NavMesh.asset
+    - Assets/Scenes/SampleScene/NavMesh.asset.meta
+    - Assets/Scenes/TextMesh Pro.meta
+    - Assets/Scenes/TextMesh Pro/Shaders.meta
+    - Assets/Scenes/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/Scenes/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/Scenes/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/Scenes/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/Scenes/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/Scenes/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/Scenes/UI.meta
+    - Assets/Scenes/UI/MainPanel.png
+    - Assets/Scenes/UI/MainPanel.png.meta
+    - Assets/Scenes/UI/MainPanel.prefab
+    - Assets/Scenes/UI/MainPanel.prefab.meta
+    - Assets/Scenes/UI/PlayButtonScript.cs
+    - Assets/Scenes/UI/PlayButtonScript.cs.meta
+    - Assets/Scenes/UI/neo_scifi_v20 SDF.asset
+    - Assets/Scenes/UI/neo_scifi_v20 SDF.asset.meta
+    - Assets/Scenes/UI/neo_scifi_v20.ttf
+    - Assets/Scenes/UI/neo_scifi_v20.ttf.meta
+    - Assets/Scenes/sampleScene_lightningSettings.lighting
+    - Assets/Scenes/sampleScene_lightningSettings.lighting.meta
+    - Assets/SoldierController.cs
+    - Assets/SoldierController.cs.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - 
+    m_Values: 010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
