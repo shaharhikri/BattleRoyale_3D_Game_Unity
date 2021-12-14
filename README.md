@@ -3,6 +3,6 @@ Battle Royale game.
 Created with C# and Unity.
 The graduation project of a game development course - Afeka College.
 Created in Unity Version 2021.1.14f1
-<img src="https://i.imgur.com/zTN5Wx7.jpeg">
-<img src="https://i.imgur.com/hvLHaoB.jpeg">
-<img src="https://i.imgur.com/pDFg9pN.jpeg">
+![alt text](/README_IMG1.jpg?raw=true)
+![alt text](/README_IMG2.jpg?raw=true)
+![alt text](/README_IMG3.jpg?raw=true)
